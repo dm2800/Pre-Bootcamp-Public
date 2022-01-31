@@ -1,0 +1,63 @@
+.nav {
+    background-color: dimgray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-title {
+    color:white; 
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+@font-face {
+    font-family: Roboto; 
+    src: url('users/danielmurcia/library/fonts/Roboto-Regular.ttf');
+}
+
+
+.nav-links {
+    /* margin-left: 20px; */
+    color: white;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    /* margin: 0px 40px; */
+}
+
+.active {
+    color: white;
+}
+
+
+.btn {
+    color: white;
+    background-color: teal;
+    border: 3px solid black;
+    margin: 10px;
+    height: 35px;
+    width: 90px;
+    box-shadow: 3px 3px 0px black;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+}
+
+a{
+    display: flex;
+    justify-content: space-around;
+    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: gainsboro;
+}
+
+
+a:link {
+    color: grey;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}

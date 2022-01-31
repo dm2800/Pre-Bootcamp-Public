@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h1 onclick="myFunction(this)" >This is an h1</h1>
+  <p onclick="changeColor(this)" >This is an paragraph</p>
+<p onclick="disappear(this)">Make this disappear </p>
+<p onclick = "timeFunction()"></p>
+   
+    <script src = "script.js"></script> 
+    <!-- ^^how to link a js file  -->
+
+
+<p>You have <span id = "like-span">0</span> likes</p>
+<!-- ^^span tag helps us target specific parts of a paragraph -->
+
+<button onclick = "like('#like-span')">Like!</button>
+
+<img src="../lecture 1.20.22/kitten.jpeg"  onmouseover= "changeImage(this)" onmouseout="changeImageback()"alt="kitten">
+
+
+
+<button onclick= "alert('This is an alert')">Alert!</button>
+
+
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "container">
+            <div class = "navbar">
+                <img id = "logo" src="../YellowBeltExam/assets/leaf.png" alt="succicon">
+                <h1>EasyBay</h1>
+                <form id="form"> 
+                    <input type="search" id="searchbox" name="q" placeholder="Search for anything"  >  
+                </form>
+                <a id = "signin" href="#">Sign In</a>
+                <a href="#"><img id = "cart" src="../YellowBeltExam/assets/cart-dark.png" onclick="cartemptyalert()" alt="cart"></a>
+            </div>
+            <div class = "linkbar">
+                <a href="#">Aeonium</a>
+                <a href="#">Andormischus</a>
+                <a href="#">Agave</a>
+                <a href="#">Aloe</a>
+                <a href="#">Anacampseros</a>
+                <a href="#">Aristaloe</a>
+                <a href="#">More...</a>
+            </div>
+            <hr>
+            <div class = "title">
+                <h2>Your Source for Serious Succulent Specialties</h2>
+            </div>
+            <div class = "columns">
+                <div class = "col1">
+                    <div id = "box1">
+                        <p id = "box1txt">Discover succulent varieties one pot or rack at a time!</p>
+                        <p id = "box1line2"><a id = "discover" href="#">Discover</a><img class = "arrow" src="../YellowBeltExam/assets/arrow-light.png" alt="arrow">
+                        </p>
+                    </div>
+                    <img id = "succimg1" src="assets/succulents-1.jpg" onmouseover= "changeImage(this)" onmouseout="changeImageback(this)" alt="succ1">
+                </div>
+                <div class = "col2">
+                    <img id = "aloem" src="assets/aloe-m.jpg" alt="aloem">
+                    <div id = "box2">
+                        <a id = "soothingaloe" href="#">Soothing Aloe</a>
+                        <img class = "arrow" src="assets/arrow-light.png" alt="arrow">
+                    </div>
+                </div>
+            </div>
+            <div id = "photorow">
+                <div class = "photocolumn">
+                    <a href="#"><img class = "circlepic" src="assets/aeonium-s.jpg" alt="aeonium"></a>
+                    <p class = "suctext">Aeonium</p>
+                </div>
+                <div class = "photocolumn">
+                    <a href="#"><img class = "circlepic" src="assets/aloe-s.jpg" alt="aloes"></a>
+                    <p class = "suctext">Aloe</p>
+                </div>
+                <div class = "photocolumn">
+                    <a href="#"><img class = "circlepic" src="assets/cactus-s.jpg" alt="cactus"></a>
+                    <p class = "suctext">Cactus</p>
+                </div>
+                <div class = "photocolumn">
+                    <a href="#"><img class = "circlepic" src="assets/echeveria-s.jpg" alt="echeveria"></a>
+                    <p class = "suctext">Echeveria</p>
+                </div>
+                <div class = "photocolumn">
+                    <a href=""><img class = "circlepic" src="assets/sedum-s.jpg" alt="sedum"></a>
+                    <p class = "suctext">Sedum</p>
+                </div>
+                <div class = "photocolumn">
+                    <a href=""><img class = "circlepic" src="assets/sempervivum-s.jpg" alt="sempervivum"></a>
+                    <p class = "suctext">Sempervivum</p>
+                </div>
+            </div>
+    </div>
+
+    <div class="alert">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">I Accept</span>
+        This site makes use of third-party cookies, by clicking 'I accept' you agree to the terms outlined in our cookie policy.
+    </div>
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>

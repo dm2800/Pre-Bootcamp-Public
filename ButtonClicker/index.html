@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "container">
+        <div class = "navbar">
+                <h1>Dojonary</h1>
+                <input type="search" name="Search" placeholder="Search" id="searchbox">
+                <button onclick="logIn(this)" id = "login">Login</button>
+        </div>
+        <div class = "main">
+            <div class = "col1">
+                <div class="box1">
+                    <div class="box1left">
+                        <h2>ninja</h2>
+                        <h4>noun</h4>
+                        <p class = "plural">Plural: <span class = "ninjas">ninjas</span></p>
+                        <button onclick="alert('Ninja was liked')" class = "likesbtn">13 likes</button>
+                    </div>
+                    <div class="box1right">
+                        <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="box2left">
+                        <h2>ninja</h2>
+                        <h4>noun</h4>
+                        <p class = "plural">Plural: <span class = "ninjas">ninjas</span></p>
+                        <button onclick="alert('Ninja was liked')" class = "likesbtn">37 likes</button>
+                    </div>
+                    <div class="box2right">
+                        <p>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                    </div>
+                </div>
+            </div>
+            <div class = "col2">
+                    <div class="box3">
+                        <p id = "dojonary">Dojonary is defined by <span id = "you">YOU</span></p>
+                        <button id = "definitionbtn" onclick= "hide(this)" >Add Definition</button>
+                    </div>       
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

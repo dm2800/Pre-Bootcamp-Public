@@ -1,0 +1,317 @@
+
+
+* {
+    padding: 0px;
+    margin: 0px ;
+    /* border: 1px dotted red */
+}
+
+.wrapper{
+    margin: 0px auto;
+}
+
+.topnav {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 75px;
+}
+
+.nav-links {
+    margin-left: 20px;
+    display: flex;
+    font-family: sans-serif;
+    color: grey;
+    list-style-type: none;
+    align-items: center;
+}
+
+a{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: gainsboro;
+    margin: 10px;
+}
+
+
+h1 {
+    font-family: sans-serif;
+    color: white;
+    margin-left: 150px;
+}
+
+#myprofile {
+    color: white;
+}
+
+/* signout button */
+.btn {
+    /* margin-top: 7px; */
+    border: 2px solid black;
+    margin-left: 170px;
+    background-color:teal;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    font-size: medium;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 900px;
+    height: 500px; 
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px 10px 30px;
+}
+
+.column1 {
+    /* display: block; */
+}
+
+/* user card CSS */
+
+.usercard {
+    width: 400px;
+    height: 265px;  
+    border: 2px solid grey;
+    margin: 20px;
+    /* display: block;
+    justify-content: flex-start; */
+}
+
+.topbar {
+    background-color: teal;
+    width: inherit;
+    height: 70px;
+}
+
+
+/* jane doe */
+.name {
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    font-family: sans-serif;
+}
+
+h3 {
+    margin-left: 5px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+
+.location {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.jobs {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-size: smaller;
+}
+
+.usercircle {
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border: 2px solid grey;
+    border-radius: 100%;
+    padding: 2px;
+}
+
+.gearicon{
+    width: 15px;
+    height: 15px;
+    margin-left: 20px;
+}
+
+.mapdot{
+    width: 10px;
+    height: 15px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+
+.editprofile {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+/* // edit profile link  */
+.editlink{
+    margin-left: 5px;
+    font-family: sans-serif;
+    font-size: smaller;
+    color: teal;
+}
+
+
+.education {
+    width: 400px;
+    height: 260px;  
+    border: 2px solid grey;
+    margin: 20px;
+    font-family: sans-serif;
+    /* display: block;
+    justify-content: flex-start; */
+}
+
+.edutopbar {
+    background-color: dimgray;
+    color: white;
+    padding: 10px 0px 10px 20px;
+}
+
+.educontents {
+    margin: 10px;
+}
+
+/* Coding Dojo - Full stack bootcamp */
+h4{
+    font-size: large;
+    margin-top: 5px;
+}
+
+/* Triple black belt in Python... */
+h5 {
+    margin-top: 5px;
+    color: grey;
+    font-size: medium;
+}
+
+.triple {
+    margin-top: 5px;
+}
+
+
+.column2{
+    width: 250px;
+    /* display: block; */
+    font-family: sans-serif;
+}
+
+.requestsbox {
+    margin-top: 20px;
+    height: 180px;
+    border: 2px solid grey;
+}
+
+.number2{
+    background-color: gainsboro;
+    color: black;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.reqtopbar{
+    width: inherit;
+    background-color: dimgray;
+    color: white;
+    padding: 10px 0px 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.reqcontents{
+    display: flex;
+}
+
+
+.line1 {
+    margin: 10px 10px 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.line2 {
+    margin: 10px 10px 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.fotos {
+    width: 50px;
+    height: 50px;
+    margin-right:10px;
+}
+
+
+.accept, .decline {
+    width: 20px;
+    height: 20px
+}
+
+.connectionsbox{
+    margin-top: 20px;
+    height: 340px;
+    border: 2px solid grey;
+}
+
+.contopbar {
+    width: inherit;
+    background-color: dimgray;
+    color: white;
+    padding: 10px 0px 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.con-num {
+    background-color: gainsboro;
+    color: black;
+    width: 55px;
+    height: 30px;
+    border-radius: 100%;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.concontents {
+    display: flex;
+    align-items: center;
+}
+.friend {
+    display:flex;
+    align-items: center;
+    margin: 10px;
+}
+
+
+.subbox {
+    border: 1px solid grey;
+    height: 40px;
+    display: flex;
+}
+
+#viewmore {
+    color:teal;
+    font-size: small;
+}

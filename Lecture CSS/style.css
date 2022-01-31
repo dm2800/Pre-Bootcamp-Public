@@ -1,0 +1,37 @@
+
+
+* {
+    border: 2px dotted red;
+}
+
+h1{
+    background-color: lightgreen;
+    color: orange;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+
+.myClass {
+    color: pink;
+    background-color: grey;
+}
+
+
+#myId{
+    color: purple;
+}
+
+
+.wrapper {
+    background-color: grey;
+    width: 960px;
+    height: 960px;
+    margin: auto;
+
+}
+
+.single {
+    display: inline-block;
+}
+

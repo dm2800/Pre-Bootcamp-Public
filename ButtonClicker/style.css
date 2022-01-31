@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* border: 2px dotted red; */
+}
+
+.container {
+    margin: 0 auto;
+    height: 900px;
+    width: 960px;
+}
+
+.navbar {
+    background-color: gainsboro;
+    height: 100px;
+    width: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-size: 50px
+}
+
+#searchbox {
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+    border: 3px solid black;
+}
+
+#login {
+    margin-right: 40px;
+    background-color: dodgerblue;
+    color: white;
+    font-size: medium;
+    width: 70px;
+    height: 30px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 0px black;
+}
+
+
+.main {
+    margin-top: 20px;
+    display: flex;
+}
+
+
+.box1{
+    border: 3px solid black;
+    width: 620px;
+    height: 250px;
+    display: flex;
+    font-family: sans-serif;
+}
+
+.box1left{
+    margin:20px;
+    text-align: center;
+    width: 250px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h4 {
+    margin-top: 10px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.plural {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.ninjas {
+    font-style: italic;
+}
+
+.likesbtn {
+    margin-top: 20px;
+    background-color: yellow;
+    font-family: sans-serif;
+    font-size: 16px;
+    width: 100px;
+    height: 40px;
+    box-shadow: 3px 3px 0px;
+}
+
+.box1right{
+    margin: 20px 20px 10px 10px;
+    padding: 60px;
+    font-size: 25px;
+}
+
+.box2{
+    margin-top: 20px;
+    font-family: sans-serif;
+    border: 3px solid black;
+    width: 620px;
+    height: 250px;
+    display: flex;
+}
+
+.box2left {
+    margin:20px;
+    text-align: center;
+    width: 250px
+}
+
+.box2right {
+    margin: 20px 20px 10px 10px;
+    padding: 60px;
+    font-size: 25px;
+}
+
+.box3{
+    margin-left: 30px;
+    border: 3px solid black;
+    width: 300px;
+    height: 200px;
+}
+
+#dojonary {
+    margin: 30px 30px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+#dojonary > span{
+    font-weight: bold;
+}
+
+#definitionbtn {
+    background-color: green;
+    font-size: 22px;
+    width: 250px;
+    height: 40px;
+    box-shadow: 4px 4px 0px;
+    margin-left: 30px;
+    margin-top: 0px;
+}
+

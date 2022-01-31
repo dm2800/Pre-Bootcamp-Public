@@ -1,0 +1,210 @@
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    width: 800px;
+}
+.navbar {
+    margin: 20px 0px 20px 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#logo {
+    background-color: mediumaquamarine;
+    width: 45px;
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+#searchbox {
+    background: url(../YellowBeltExam/assets/search-dark.png) no-repeat scroll;
+    background-position: right;
+    background-size: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    text-align: left;
+}
+
+#signin {
+    border: none;
+    background: none;
+    font-weight: bold;
+    font-size: medium;
+}
+
+#cart {
+    width: 30px;
+}
+
+.linkbar {
+    margin-left: 30px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+hr {
+    border-top: solid black 4px;
+    width: 730px;
+    margin-left: 50px;
+}
+
+h2 {
+    text-align: center;
+    margin: 25px;
+    font-size: 28px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+
+.columns {
+    display: flex;
+}
+
+
+.col1 {
+    display: flex;
+}
+
+
+#box1 {
+    margin-left: 50px;
+    background-color: mediumaquamarine;
+    width: 210px;
+    height: 210px;
+    padding: 10px;
+    display: block;
+    justify-content: center;
+}
+
+#box1txt {
+    margin-left: 20px;
+    margin-top: 50px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+#box1line2 {
+    margin-left: 45px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#discover {
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+.arrow {    
+    width: 40px;
+}
+
+#succimg1 {
+    width: 230px;
+    height: 230px;
+}
+
+.col2 {
+    display: block;
+    margin-left: 20px;
+}
+
+#aloem {
+    width: 250px;
+    height: 160px;
+}
+
+#box2 {
+    margin-top: 10px;
+    background-color: mediumaquamarine;
+    width: 250px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#soothingaloe {
+    color:white;
+    font-weight: bold;
+    font-size: large;
+}
+
+#photorow {
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 10px;
+    height: 150px;
+    width: 710px;
+    background-color: paleturquoise;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.photocolumn {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+.circlepic {
+    border-radius: 100%;
+    width: 70px;
+}
+
+.suctext {
+    margin-top: 10px;
+    font-size: smaller;
+}
+
+.alert {
+    padding: 20px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    width: 685px;
+}
+
+.closebtn {
+    margin-left: 15px;
+    width: 70px;
+    color: white;
+    text-align: center;
+    background-color: mediumseagreen;
+    padding: 5px;
+    font-weight: bold;
+    float: right;
+    border: 2px solid black;
+    font-size: 14px;
+    font-family: sans-serif;
+    cursor: pointer;
+    box-shadow: 3px 3px 0px black;
+}

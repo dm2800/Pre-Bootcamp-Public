@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 2px dotted red;  */
+    font-family: sans-serif;
+}
+
+#wrapper {
+    margin: 0 auto; 
+    height: 900px;
+    width: 900px;
+}
+
+#navbar {
+    background-color: cornflowerblue;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#navcities {
+    display: flex;
+    margin-left: 150px;
+}
+
+.city {
+    margin: 20px; 
+    text-decoration: none;
+    color: white;
+    font-size: 20px ;
+}
+
+#main {
+    width: 700px;
+    margin: 0 auto; 
+}
+
+#header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#temperature {
+    display: flex;
+    margin-left: 380px;
+
+}
+
+#degreebox{
+    margin-left: 20px;
+}
+
+hr {
+    border: 2px solid black;
+}
+
+#days{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dayforecast {
+    margin-top: 20px;
+    width: 160px;
+    height: 250px;
+    background-color: gainsboro;
+}
+
+h4{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+img{
+    /* margin-top: 20px; */
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    display: block;
+    margin: 10px auto; 
+}
+
+.some{
+    
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.hi-lo {
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.hi {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.lo {
+    color: blue;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.alert {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: gainsboro;
+    color: black;
+    border: 2px solid black;
+    font-family: sans-serif;
+    width: 685px;
+    position: fixed;
+    bottom: 380px;
+    right: 150px;
+}
+
+.closebtn {
+    margin-left: 15px;
+    margin-right: 20px;
+    width: 70px;
+    height: 20px;
+    color: black;
+    text-align: center;
+    background-color: cornflowerblue;
+    padding: 5px;
+    font-weight: bold;
+    float: right;
+    border: 2px solid black;
+    font-size: 14px;
+    font-family: sans-serif;
+    cursor: pointer;
+    box-shadow: 3px 3px 0px black;
+}
+
+#alert-text {
+    display: inline-block;
+    width: 450px;
+}
+
+#cookietime{
+    margin-bottom: 5px;
+}
+
+
+
+#cookie{
+    width: 70px;
+    height: 70px;
+}

@@ -1,0 +1,86 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.mainbox {
+    width: 550px;
+    height: 260px;  
+    border: 2px solid grey;
+    margin: 0px auto;
+}
+
+.topbar {
+    background-color: teal;
+    width: inherit;
+    height: 70px;
+}
+
+.usercircle {
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border: 2px solid grey;
+    border-radius: 100%;
+    padding: 2px;
+}
+
+/* jane doe */
+h1 {
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    font-family: sans-serif;
+}
+
+h3 {
+    margin-left: 5px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.mapdot{
+    width: 10px;
+    height: 15px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+
+.jobs {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-size: smaller;
+}
+
+.gearicon{
+    width: 15px;
+    height: 15px;
+    margin-left: 20px;
+}
+
+.editprofile {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+/* // edit profile link  */
+a{
+    margin-left: 5px;
+    font-family: sans-serif;
+    font-size: smaller;
+    color: teal;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="navbar">
+            <h1>DojoWeather</h1>
+            <div id="navcities">
+                <a class ="city" href="#"  onclick="loadWeather()">Burbank</a>
+                <a class ="city" href="#"  onclick="loadWeather()">Chicago</a>
+                <a class ="city" href="#"  onclick="loadWeather()">Dallas</a>
+            </div>
+        </div>
+        <div id="main">
+            <div id="header">
+                <h2>San Jose</h2>
+                <div id="temperature">
+                    <p>show temperature in</p>
+                    <select name="degrees" id="degreebox" oninput="switchDegrees()">
+                        <option>˚C</option>
+                        <option>˚F</option>
+                    </select>
+                </div>
+            </div>
+            <hr>
+            <div id="days">
+                <div class = "dayforecast">
+                    <h4>Today</h4>
+                    <img src="assets/some_rain.png" alt="rain">
+                    <p class="some">some rain</p>
+                    <div class = "hi-lo">
+                        <p id= "todayhi" class = "hi">24˚</p>
+                        <p id= "todaylo" class = "lo">18˚</p>
+                    </div>
+                </div>
+                <div class = "dayforecast">
+                    <h4>Tomorrow</h4>
+                    <img src="assets/some_sun.png" alt="sun">
+                    <p class="some">some sun</p>
+                    <div class = "hi-lo">
+                        <p id= "tomhi" class = "hi">27˚</p>
+                        <p id= "tomlo" class = "lo">19˚</p>
+                    </div>
+                </div>
+                <div class = "dayforecast">
+                    <h4>Friday</h4>
+                    <img src="assets/some_clouds.png" alt="clouds">
+                    <p class="some">some clouds</p>
+                    <div class = "hi-lo">
+                        <p id="frihi" class = "hi">27˚</p>
+                        <p id="frilo" class = "lo">19˚</p>
+                    </div>
+                </div>
+                <div class = "dayforecast">
+                    <h4>Saturday</h4>
+                    <img src="assets/some_sun.png" alt="sun">
+                    <p class="some">some sun</p>
+                    <div class = "hi-lo">
+                        <p id="sathi" class = "hi">26˚</p>
+                        <p id="satlo" class = "lo">21˚</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="alert">
+            <img id="cookie" src="assets/cookie.png" alt="cookie">
+            <div id="alert-text">
+                <h5 id="cookietime">Stop! Cookie Time</h5>
+                We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyze our traffic. <a href="#">Read more...</a>
+            </div>
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">I Accept</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
